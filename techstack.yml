@@ -1,0 +1,62 @@
+repo_name: taqtiqa-mark/chjulia
+report_id: cf56eed7c9ea14202f5203820fe0982b
+repo_type: Public
+timestamp: '2023-11-09T21:07:00+00:00'
+requested_by: postmodern
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Wil Moore III
+  last_updated_on: 2013-06-16 05:44:38.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source: Vagrantfile
+  last_updated_by: Postmodern
+  last_updated_on: 2013-09-05 23:17:53.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata

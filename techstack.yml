@@ -1,7 +1,8 @@
 repo_name: taqtiqa-mark/chjulia
 report_id: cf56eed7c9ea14202f5203820fe0982b
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T21:07:00+00:00'
+timestamp: '2024-01-04T15:14:57+00:00'
 requested_by: postmodern
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/taqtiqa-mark/chjulia
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/taqtiqa-mark/chjulia
   detection_source: Repo Metadata
 - name: Travis CI
   description: A hosted continuous integration service for open source and private
@@ -35,6 +38,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/taqtiqa-mark/chjulia/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Wil Moore III
   last_updated_on: 2013-06-16 05:44:38.000000000 Z
@@ -47,6 +51,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Management
   image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/taqtiqa-mark/chjulia/blob/master/Vagrantfile
   detection_source: Vagrantfile
   last_updated_by: Postmodern
   last_updated_on: 2013-09-05 23:17:53.000000000 Z
@@ -59,4 +64,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/taqtiqa-mark/chjulia
   detection_source: Repo Metadata
